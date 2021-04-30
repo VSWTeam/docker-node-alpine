@@ -5,3 +5,7 @@ RUN npm install -g gulp
 RUN apk update && apk add --no-cache ruby ruby-dev ruby-ffi
 
 RUN gem install compass
+RUN gem install compass-normalize
+RUN gem install compass-rgbapng
+RUN gem install toolkit
+RUN gem install breakpoint

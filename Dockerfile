@@ -9,3 +9,4 @@ RUN gem install compass-normalize
 RUN gem install compass-rgbapng
 RUN gem install toolkit
 RUN gem install breakpoint
+RUN gem install susy
